@@ -1,30 +1,30 @@
-# Agent HQ para Windows
+# Agent HQ for Windows
 
-Escritório 3D para ver e orquestrar agentes do Claude Code.
+A 3D office to watch and orchestrate your Claude Code agents.
 
-## Baixar
+## Download
 
-**[⬇ Baixar o Agent HQ (Windows 10/11, 64 bits)](https://github.com/eezsm93/agent-hq-releases/releases/latest/download/AgentHQ-Setup.exe)**
+**[⬇ Download Agent HQ (Windows 10/11, 64-bit)](https://github.com/eezsm93/agent-hq-releases/releases/latest/download/AgentHQ-Setup.exe)**
 
-O link sempre entrega a versão mais recente.
+This link always gets the latest version.
 
-## Instalar
+## Install
 
-1. Abra o `AgentHQ-Setup.exe`.
-2. Se o Windows mostrar "O Windows protegeu o computador", clique em **Mais informações → Executar assim mesmo**. O aviso aparece porque o instalador ainda não tem assinatura digital paga; o app é o mesmo publicado aqui.
-3. A instalação é só para o seu usuário e não pede administrador.
+1. Run `AgentHQ-Setup.exe`.
+2. If Windows shows "Windows protected your PC", click **More info → Run anyway**. The installer isn't code-signed yet; it's the same app published here.
+3. It installs for your user only and doesn't need administrator rights.
 
-## Antes de usar
+## Before you start
 
-O Agent HQ roda os agentes no **Claude Code**. Instale e faça login uma vez:
+Agent HQ runs its agents on **Claude Code**. Install it and sign in once:
 
 ```powershell
 irm https://claude.ai/install.ps1 | iex
 claude
 ```
 
-## Atualizações
+## Updates
 
-O app verifica sozinho ao abrir (e a cada 4 horas). Quando sai uma versão nova, ele avisa e você escolhe quando baixar e reiniciar. Também dá para procurar pelo menu **Agent HQ → Procurar atualizações…**.
+Agent HQ checks for updates when it opens and every 4 hours. A new version downloads in the background (you'll see the progress in the corner), and when it's ready Agent HQ asks to restart: it closes, installs and reopens by itself. You can also use **Agent HQ → Check for updates…** in the menu.
 
-Seus dados (salas, tarefas, memória) ficam em `%APPDATA%\Agent HQ` e não são apagados ao atualizar nem ao desinstalar.
+Your data (rooms, tasks, memory) lives in `%APPDATA%\Agent HQ` and is kept across updates and uninstalls.
